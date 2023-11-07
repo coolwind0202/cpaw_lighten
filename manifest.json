@@ -9,7 +9,7 @@
                 "content_script.js"
             ],
             "matches": [
-                "https://ctf.cpaw.site/*"
+                "https://ctf.cpaw.site/questions.php?qnum=*"
             ],
             "run_at": "document_end"
         }
