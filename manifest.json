@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "cpaw_lighten",
+    "description": "Remove ranking table on CpawCTF website.",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "js": [
+                "content_script.js"
+            ],
+            "matches": [
+                "https://ctf.cpaw.site/*"
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}
